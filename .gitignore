@@ -1,0 +1,17 @@
+# Ignore Eclipse and VSCode settings
+.metadata/
+.vscode/
+.idea/
+
+# Ignore build files
+/target/
+/build/
+/bin/
+/node_modules/
+/dist/
+
+/*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
