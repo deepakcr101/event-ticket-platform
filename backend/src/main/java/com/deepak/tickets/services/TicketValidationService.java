@@ -1,6 +1,6 @@
-package com.devtiro.tickets.services;
+package com.deepak.tickets.services;
 
-import com.devtiro.tickets.domain.entities.TicketValidation;
+import com.deepak.tickets.domain.entities.TicketValidation;
 import java.util.UUID;
 
 public interface TicketValidationService {

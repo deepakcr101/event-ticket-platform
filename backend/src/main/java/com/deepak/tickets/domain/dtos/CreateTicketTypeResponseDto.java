@@ -1,4 +1,4 @@
-package com.devtiro.tickets.domain.dtos;
+package com.deepak.tickets.domain.dtos;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -13,7 +13,7 @@ public class CreateTicketTypeResponseDto {
 
   private UUID id;
   private String name;
-  private Double price;
+  private double price;
   private String description;
   private Integer totalAvailable;
   private LocalDateTime createdAt;

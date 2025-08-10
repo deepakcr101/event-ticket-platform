@@ -1,4 +1,4 @@
-package com.devtiro.tickets.config;
+package com.deepak.tickets.config;
 
 import java.util.Collection;
 import java.util.Collections;

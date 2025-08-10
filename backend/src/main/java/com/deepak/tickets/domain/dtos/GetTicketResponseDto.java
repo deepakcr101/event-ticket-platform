@@ -1,6 +1,6 @@
-package com.devtiro.tickets.domain.dtos;
+package com.deepak.tickets.domain.dtos;
 
-import com.devtiro.tickets.domain.entities.TicketStatusEnum;
+import com.deepak.tickets.domain.entities.TicketStatusEnum;
 import java.time.LocalDateTime;
 import java.util.UUID;
 import lombok.AllArgsConstructor;

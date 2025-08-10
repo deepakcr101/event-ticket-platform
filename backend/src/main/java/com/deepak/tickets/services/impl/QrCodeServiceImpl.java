@@ -1,12 +1,12 @@
-package com.devtiro.tickets.services.impl;
+package com.deepak.tickets.services.impl;
 
-import com.devtiro.tickets.domain.entities.QrCode;
-import com.devtiro.tickets.domain.entities.QrCodeStatusEnum;
-import com.devtiro.tickets.domain.entities.Ticket;
-import com.devtiro.tickets.exceptions.QrCodeGenerationException;
-import com.devtiro.tickets.exceptions.QrCodeNotFoundException;
-import com.devtiro.tickets.repositories.QrCodeRepository;
-import com.devtiro.tickets.services.QrCodeService;
+import com.deepak.tickets.domain.entities.QrCode;
+import com.deepak.tickets.domain.entities.QrCodeStatusEnum;
+import com.deepak.tickets.domain.entities.Ticket;
+import com.deepak.tickets.exceptions.QrCodeGenerationException;
+import com.deepak.tickets.exceptions.QrCodeNotFoundException;
+import com.deepak.tickets.repositories.QrCodeRepository;
+import com.deepak.tickets.services.QrCodeService;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;
 import com.google.zxing.client.j2se.MatrixToImageWriter;

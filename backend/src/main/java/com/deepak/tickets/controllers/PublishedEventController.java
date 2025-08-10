@@ -1,10 +1,10 @@
-package com.devtiro.tickets.controllers;
+package com.deepak.tickets.controllers;
 
-import com.devtiro.tickets.domain.dtos.GetPublishedEventDetailsResponseDto;
-import com.devtiro.tickets.domain.dtos.ListPublishedEventResponseDto;
-import com.devtiro.tickets.domain.entities.Event;
-import com.devtiro.tickets.mappers.EventMapper;
-import com.devtiro.tickets.services.EventService;
+import com.deepak.tickets.domain.dtos.GetPublishedEventDetailsResponseDto;
+import com.deepak.tickets.domain.dtos.ListPublishedEventResponseDto;
+import com.deepak.tickets.domain.entities.Event;
+import com.deepak.tickets.mappers.EventMapper;
+import com.deepak.tickets.services.EventService;
 import java.util.UUID;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

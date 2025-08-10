@@ -1,12 +1,12 @@
-package com.devtiro.tickets.controllers;
+package com.deepak.tickets.controllers;
 
-import static com.devtiro.tickets.util.JwtUtil.parseUserId;
+import static com.deepak.tickets.util.JwtUtil.parseUserId;
 
-import com.devtiro.tickets.domain.dtos.GetTicketResponseDto;
-import com.devtiro.tickets.domain.dtos.ListTicketResponseDto;
-import com.devtiro.tickets.mappers.TicketMapper;
-import com.devtiro.tickets.services.QrCodeService;
-import com.devtiro.tickets.services.TicketService;
+import com.deepak.tickets.domain.dtos.GetTicketResponseDto;
+import com.deepak.tickets.domain.dtos.ListTicketResponseDto;
+import com.deepak.tickets.mappers.TicketMapper;
+import com.deepak.tickets.services.QrCodeService;
+import com.deepak.tickets.services.TicketService;
 import java.time.Duration;
 import java.util.UUID;
 import lombok.RequiredArgsConstructor;

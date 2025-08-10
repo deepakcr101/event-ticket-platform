@@ -1,6 +1,6 @@
-package com.devtiro.tickets.repositories;
+package com.deepak.tickets.repositories;
 
-import com.devtiro.tickets.domain.entities.TicketType;
+import com.deepak.tickets.domain.entities.TicketType;
 import jakarta.persistence.LockModeType;
 import java.util.Optional;
 import java.util.UUID;

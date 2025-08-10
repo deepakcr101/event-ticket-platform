@@ -1,14 +1,14 @@
-package com.devtiro.tickets.controllers;
+package com.deepak.tickets.controllers;
 
-import com.devtiro.tickets.domain.dtos.ErrorDto;
-import com.devtiro.tickets.exceptions.EventNotFoundException;
-import com.devtiro.tickets.exceptions.EventUpdateException;
-import com.devtiro.tickets.exceptions.QrCodeGenerationException;
-import com.devtiro.tickets.exceptions.QrCodeNotFoundException;
-import com.devtiro.tickets.exceptions.TicketNotFoundException;
-import com.devtiro.tickets.exceptions.TicketTypeNotFoundException;
-import com.devtiro.tickets.exceptions.TicketsSoldOutException;
-import com.devtiro.tickets.exceptions.UserNotFoundException;
+import com.deepak.tickets.domain.dtos.ErrorDto;
+import com.deepak.tickets.exceptions.EventNotFoundException;
+import com.deepak.tickets.exceptions.EventUpdateException;
+import com.deepak.tickets.exceptions.QrCodeGenerationException;
+import com.deepak.tickets.exceptions.QrCodeNotFoundException;
+import com.deepak.tickets.exceptions.TicketNotFoundException;
+import com.deepak.tickets.exceptions.TicketTypeNotFoundException;
+import com.deepak.tickets.exceptions.TicketsSoldOutException;
+import com.deepak.tickets.exceptions.UserNotFoundException;
 import jakarta.validation.ConstraintViolationException;
 import java.util.List;
 import lombok.extern.slf4j.Slf4j;

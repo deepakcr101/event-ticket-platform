@@ -1,7 +1,7 @@
-package com.devtiro.tickets.repositories;
+package com.deepak.tickets.repositories;
 
-import com.devtiro.tickets.domain.entities.Event;
-import com.devtiro.tickets.domain.entities.EventStatusEnum;
+import com.deepak.tickets.domain.entities.Event;
+import com.deepak.tickets.domain.entities.EventStatusEnum;
 import java.util.Optional;
 import java.util.UUID;
 import org.springframework.data.domain.Page;

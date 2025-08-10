@@ -1,6 +1,6 @@
-package com.devtiro.tickets.config;
+package com.deepak.tickets.config;
 
-import com.devtiro.tickets.filters.UserProvisioningFilter;
+import com.deepak.tickets.filters.UserProvisioningFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

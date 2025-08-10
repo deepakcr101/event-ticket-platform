@@ -1,8 +1,8 @@
-package com.devtiro.tickets.controllers;
+package com.deepak.tickets.controllers;
 
-import static com.devtiro.tickets.util.JwtUtil.parseUserId;
+import static com.deepak.tickets.util.JwtUtil.parseUserId;
 
-import com.devtiro.tickets.services.TicketTypeService;
+import com.deepak.tickets.services.TicketTypeService;
 import java.util.UUID;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

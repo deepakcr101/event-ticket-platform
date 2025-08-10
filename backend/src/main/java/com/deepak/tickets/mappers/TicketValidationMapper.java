@@ -1,7 +1,7 @@
-package com.devtiro.tickets.mappers;
+package com.deepak.tickets.mappers;
 
-import com.devtiro.tickets.domain.dtos.TicketValidationResponseDto;
-import com.devtiro.tickets.domain.entities.TicketValidation;
+import com.deepak.tickets.domain.dtos.TicketValidationResponseDto;
+import com.deepak.tickets.domain.entities.TicketValidation;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.ReportingPolicy;

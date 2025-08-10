@@ -1,4 +1,4 @@
-package com.devtiro.tickets.config;
+package com.deepak.tickets.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;

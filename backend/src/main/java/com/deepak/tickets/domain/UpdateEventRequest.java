@@ -1,6 +1,6 @@
-package com.devtiro.tickets.domain;
+package com.deepak.tickets.domain;
 
-import com.devtiro.tickets.domain.entities.EventStatusEnum;
+import com.deepak.tickets.domain.entities.EventStatusEnum;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;

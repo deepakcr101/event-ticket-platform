@@ -1,7 +1,7 @@
-package com.devtiro.tickets.services;
+package com.deepak.tickets.services;
 
-import com.devtiro.tickets.domain.entities.QrCode;
-import com.devtiro.tickets.domain.entities.Ticket;
+import com.deepak.tickets.domain.entities.QrCode;
+import com.deepak.tickets.domain.entities.Ticket;
 import java.util.UUID;
 
 public interface QrCodeService {

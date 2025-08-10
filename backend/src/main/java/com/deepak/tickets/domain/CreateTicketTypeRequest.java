@@ -1,4 +1,4 @@
-package com.devtiro.tickets.domain;
+package com.deepak.tickets.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package com.devtiro.tickets.repositories;
+package com.deepak.tickets.repositories;
 
-import com.devtiro.tickets.domain.entities.TicketValidation;
+import com.deepak.tickets.domain.entities.TicketValidation;
 import java.util.UUID;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

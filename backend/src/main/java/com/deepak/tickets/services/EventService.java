@@ -1,8 +1,8 @@
-package com.devtiro.tickets.services;
+package com.deepak.tickets.services;
 
-import com.devtiro.tickets.domain.CreateEventRequest;
-import com.devtiro.tickets.domain.UpdateEventRequest;
-import com.devtiro.tickets.domain.entities.Event;
+import com.deepak.tickets.domain.CreateEventRequest;
+import com.deepak.tickets.domain.UpdateEventRequest;
+import com.deepak.tickets.domain.entities.Event;
 import java.util.Optional;
 import java.util.UUID;
 import org.springframework.data.domain.Page;

@@ -1,18 +1,18 @@
-package com.devtiro.tickets.controllers;
+package com.deepak.tickets.controllers;
 
-import static com.devtiro.tickets.util.JwtUtil.parseUserId;
+import static com.deepak.tickets.util.JwtUtil.parseUserId;
 
-import com.devtiro.tickets.domain.CreateEventRequest;
-import com.devtiro.tickets.domain.UpdateEventRequest;
-import com.devtiro.tickets.domain.dtos.CreateEventRequestDto;
-import com.devtiro.tickets.domain.dtos.CreateEventResponseDto;
-import com.devtiro.tickets.domain.dtos.GetEventDetailsResponseDto;
-import com.devtiro.tickets.domain.dtos.ListEventResponseDto;
-import com.devtiro.tickets.domain.dtos.UpdateEventRequestDto;
-import com.devtiro.tickets.domain.dtos.UpdateEventResponseDto;
-import com.devtiro.tickets.domain.entities.Event;
-import com.devtiro.tickets.mappers.EventMapper;
-import com.devtiro.tickets.services.EventService;
+import com.deepak.tickets.domain.CreateEventRequest;
+import com.deepak.tickets.domain.UpdateEventRequest;
+import com.deepak.tickets.domain.dtos.CreateEventRequestDto;
+import com.deepak.tickets.domain.dtos.CreateEventResponseDto;
+import com.deepak.tickets.domain.dtos.GetEventDetailsResponseDto;
+import com.deepak.tickets.domain.dtos.ListEventResponseDto;
+import com.deepak.tickets.domain.dtos.UpdateEventRequestDto;
+import com.deepak.tickets.domain.dtos.UpdateEventResponseDto;
+import com.deepak.tickets.domain.entities.Event;
+import com.deepak.tickets.mappers.EventMapper;
+import com.deepak.tickets.services.EventService;
 import jakarta.validation.Valid;
 import java.util.UUID;
 import lombok.RequiredArgsConstructor;

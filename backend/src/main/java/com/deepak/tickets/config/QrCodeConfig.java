@@ -1,4 +1,4 @@
-package com.devtiro.tickets.config;
+package com.deepak.tickets.config;
 
 import com.google.zxing.qrcode.QRCodeWriter;
 import org.springframework.context.annotation.Bean;

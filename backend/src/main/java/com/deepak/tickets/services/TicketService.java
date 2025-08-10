@@ -1,6 +1,6 @@
-package com.devtiro.tickets.services;
+package com.deepak.tickets.services;
 
-import com.devtiro.tickets.domain.entities.Ticket;
+import com.deepak.tickets.domain.entities.Ticket;
 import java.util.Optional;
 import java.util.UUID;
 import org.springframework.data.domain.Page;

@@ -1,4 +1,4 @@
-package com.devtiro.tickets;
+package com.deepak.tickets;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

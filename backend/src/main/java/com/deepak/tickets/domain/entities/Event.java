@@ -1,4 +1,4 @@
-package com.devtiro.tickets.domain.entities;
+package com.deepak.tickets.domain.entities;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;

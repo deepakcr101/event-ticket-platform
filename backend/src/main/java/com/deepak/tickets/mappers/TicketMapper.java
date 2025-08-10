@@ -1,10 +1,10 @@
-package com.devtiro.tickets.mappers;
+package com.deepak.tickets.mappers;
 
-import com.devtiro.tickets.domain.dtos.GetTicketResponseDto;
-import com.devtiro.tickets.domain.dtos.ListTicketResponseDto;
-import com.devtiro.tickets.domain.dtos.ListTicketTicketTypeResponseDto;
-import com.devtiro.tickets.domain.entities.Ticket;
-import com.devtiro.tickets.domain.entities.TicketType;
+import com.deepak.tickets.domain.dtos.GetTicketResponseDto;
+import com.deepak.tickets.domain.dtos.ListTicketResponseDto;
+import com.deepak.tickets.domain.dtos.ListTicketTicketTypeResponseDto;
+import com.deepak.tickets.domain.entities.Ticket;
+import com.deepak.tickets.domain.entities.TicketType;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.ReportingPolicy;

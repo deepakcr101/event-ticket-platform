@@ -1,4 +1,4 @@
-package com.devtiro.tickets.domain.dtos;
+package com.deepak.tickets.domain.dtos;
 
 import java.util.UUID;
 import lombok.AllArgsConstructor;

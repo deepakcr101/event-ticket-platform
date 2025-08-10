@@ -1,11 +1,11 @@
-package com.devtiro.tickets.controllers;
+package com.deepak.tickets.controllers;
 
-import com.devtiro.tickets.domain.dtos.TicketValidationRequestDto;
-import com.devtiro.tickets.domain.dtos.TicketValidationResponseDto;
-import com.devtiro.tickets.domain.entities.TicketValidation;
-import com.devtiro.tickets.domain.entities.TicketValidationMethod;
-import com.devtiro.tickets.mappers.TicketValidationMapper;
-import com.devtiro.tickets.services.TicketValidationService;
+import com.deepak.tickets.domain.dtos.TicketValidationRequestDto;
+import com.deepak.tickets.domain.dtos.TicketValidationResponseDto;
+import com.deepak.tickets.domain.entities.TicketValidation;
+import com.deepak.tickets.domain.entities.TicketValidationMethod;
+import com.deepak.tickets.mappers.TicketValidationMapper;
+import com.deepak.tickets.services.TicketValidationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

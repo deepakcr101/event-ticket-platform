@@ -1,4 +1,4 @@
-package com.devtiro.tickets.util;
+package com.deepak.tickets.util;
 
 import java.util.UUID;
 import org.springframework.security.oauth2.jwt.Jwt;

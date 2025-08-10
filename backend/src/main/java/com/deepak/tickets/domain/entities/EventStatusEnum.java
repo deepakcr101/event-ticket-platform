@@ -1,4 +1,4 @@
-package com.devtiro.tickets.domain.entities;
+package com.deepak.tickets.domain.entities;
 
 public enum EventStatusEnum {
   DRAFT, PUBLISHED, CANCELLED, COMPLETED

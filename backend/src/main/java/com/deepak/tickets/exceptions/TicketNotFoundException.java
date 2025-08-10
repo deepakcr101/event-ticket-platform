@@ -1,4 +1,4 @@
-package com.devtiro.tickets.exceptions;
+package com.deepak.tickets.exceptions;
 
 public class TicketNotFoundException extends EventTicketException {
 

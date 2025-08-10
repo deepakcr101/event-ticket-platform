@@ -1,8 +1,8 @@
-package com.devtiro.tickets.services.impl;
+package com.deepak.tickets.services.impl;
 
-import com.devtiro.tickets.domain.entities.Ticket;
-import com.devtiro.tickets.repositories.TicketRepository;
-import com.devtiro.tickets.services.TicketService;
+import com.deepak.tickets.domain.entities.Ticket;
+import com.deepak.tickets.repositories.TicketRepository;
+import com.deepak.tickets.services.TicketService;
 import java.util.Optional;
 import java.util.UUID;
 import lombok.RequiredArgsConstructor;
