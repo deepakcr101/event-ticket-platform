@@ -1,58 +1,46 @@
-🎟️ Event Ticket Platform
+# 🎟️ Event Ticket Platform
+
 A full-stack web application built with Spring Boot (Java) for the backend and React.js for the frontend. This platform enables users to browse events, book tickets, and manage participation, with role-based access for Admin, Organizer, and User.
 
-🚀 Features
-👥 Users
-Sign up, log in, and manage profiles
+## 🚀 Features
 
-Browse upcoming events
+### 👥 Users
+- Sign up, log in, and manage profiles
+- Browse upcoming events
+- Book tickets and view booking history
 
-Book tickets and view booking history
+### 🧑‍💼 Organizers
+- Create and manage events
+- View ticket bookings for their events
 
-🧑‍💼 Organizers
-Create and manage events
+### 👨‍💻 Admins
+- Manage users, organizers, and events
+- Approve or reject event listings
 
-View ticket bookings for their events
+## 🛠️ Tech Stack
 
-👨‍💻 Admins
-Manage users, organizers, and events
+**Frontend**
+- React.js
+- Axios (API calls)
+- React Router
+- Bootstrap / Tailwind CSS
 
-Approve or reject event listings
+**Backend**
+- Spring Boot
+- Spring Security
+- Spring Data JPA
+- MySQL / PostgreSQL
+- JWT Authentication
 
-🛠️ Tech Stack
-Frontend
-React.js
+**Tools**
+- Maven – dependency management
+- Eclipse / IntelliJ – backend development
+- VS Code – frontend development
+- Postman – API testing
 
-Axios (API calls)
+## 📂 Project Structure
 
-React Router
-
-Bootstrap / Tailwind CSS
-
-Backend
-Spring Boot
-
-Spring Security
-
-Spring Data JPA
-
-MySQL / PostgreSQL
-
-JWT Authentication
-
-Tools
-Maven – dependency management
-
-Eclipse / IntelliJ – backend development
-
-VS Code – frontend development
-
-Postman – API testing
-
-📂 Project Structure
-css
-Copy
-Edit
+```plaintext
 event-ticket-platform/
 ├── backend/
 │   ├── src/main/java/com/eventticket/...
@@ -62,96 +50,118 @@ event-ticket-platform/
 │   ├── public/
 │   └── package.json
 ├── README.md
-⚙️ Getting Started
-1. Clone the Repository
-bash
-Copy
-Edit
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/yourusername/event-ticket-platform.git
 cd event-ticket-platform
-🧩 Backend Setup (Spring Boot)
-Prerequisites:
+```
 
-Java 17+
+---
 
-Maven
+### 🧩 Backend Setup (Spring Boot)
 
-MySQL / PostgreSQL
+**Prerequisites:**
+- ☕ Java 17+
+- 📦 Maven
+- 🛢️ MySQL / PostgreSQL
 
-Steps:
+**Steps:**
+1. Navigate to the backend directory:
+    ```bash
+    cd backend
+    ```
+2. Edit `application.properties`:
+    ```properties
+    spring.datasource.url=jdbc:mysql://localhost:3306/event_ticket
+    spring.datasource.username=your_db_username
+    spring.datasource.password=your_db_password
+    spring.jpa.hibernate.ddl-auto=update
+    jwt.secret=your_jwt_secret_key
+    ```
+3. Run the backend:
+    ```bash
+    mvn spring-boot:run
+    ```
 
-bash
-Copy
-Edit
-cd backend
-Edit application.properties:
+---
 
-properties
-Copy
-Edit
-spring.datasource.url=jdbc:mysql://localhost:3306/event_ticket
-spring.datasource.username=your_db_username
-spring.datasource.password=your_db_password
-spring.jpa.hibernate.ddl-auto=update
-jwt.secret=your_jwt_secret_key
-Run the backend:
+### 🎨 Frontend Setup (React)
 
-bash
-Copy
-Edit
-mvn spring-boot:run
-🎨 Frontend Setup (React)
-Prerequisites:
+**Prerequisites:**
+- 🟢 Node.js v18+
+- 📦 npm or yarn
 
-Node.js v18+
+**Steps:**
+1. Navigate to the frontend directory:
+    ```bash
+    cd frontend
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Start the frontend:
+    ```bash
+    npm start
+    ```
+   App runs at: [http://localhost:3000](http://localhost:3000)
 
-npm or yarn
+---
 
-Steps:
+## 🔐 Authentication
 
-bash
-Copy
-Edit
-cd frontend
-npm install
-npm start
-The app will be available at http://localhost:3000.
+- JWT-based token authentication
+- Role-based access for `USER`, `ORGANIZER`, and `ADMIN`
 
-🔐 Authentication
-JWT-based token authentication
+---
 
-Role-based access: USER, ORGANIZER, ADMIN
+## 🧪 API Testing
 
-🧪 API Testing
-Use Postman or Swagger to test:
+Test with Postman or Swagger:
 
-POST /api/auth/login
+- `POST /api/auth/login`
+- `POST /api/auth/register`
+- `GET /api/events`
+- `POST /api/tickets`
+- `GET /api/admin/*`
 
-POST /api/auth/register
+---
 
-GET /api/events
+## ✅ Future Enhancements
 
-POST /api/tickets
+- 💳 Payment integration (Stripe / Razorpay)
+- 📧 Email notifications for ticket confirmations
+- 📱 QR code-based ticket validation
+- 🔍 Event search & filtering
+- ⭐ User reviews & ratings
 
-GET /api/admin/*
+---
 
-✅ Future Enhancements
-Payment integration (Stripe / Razorpay)
+## 🤝 Contributing
 
-Email notifications for ticket confirmations
+Contributions are welcome!
 
-QR code-based ticket validation
+1. Fork the repo
+2. Create a feature branch
+3. Commit changes
+4. Submit a Pull Request 🚀
 
-Event search and filtering
+---
 
-User reviews & ratings
+## 📄 License
 
-🤝 Contributing
-Contributions are welcome! Fork the repo and submit a PR.
+This project is licensed under the MIT License.
 
-📄 License
-Licensed under the MIT License.
+---
 
-📬 Contact
-Created by Deepak Kumar
-Let’s connect and collaborate!
+## 📬 Contact
+
+Created by **Deepak Kumar**  
+💼 Feel free to connect!
