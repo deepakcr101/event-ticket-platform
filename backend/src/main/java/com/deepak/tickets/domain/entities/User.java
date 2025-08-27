@@ -21,7 +21,7 @@ import lombok.Setter;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 
-@Entity
+@Entity 
 @Table(name = "users")
 @Getter
 @Setter

@@ -108,6 +108,7 @@ const oidcConfig = {
   authority: "http://localhost:9090/realms/event-ticket-platform",
   client_id: "event-ticket-platform-app",
   redirect_uri: "http://localhost:5173/callback",
+  scope: "openid profile email roles", // <-- ADD THIS LINE
 };
 
 createRoot(document.getElementById("root")!).render(

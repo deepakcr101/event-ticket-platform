@@ -11,11 +11,14 @@ const CallbackPage: React.FC = () => {
       return;
     }
 
-    if (isAuthenticated) {
+     if (isAuthenticated) {
       const redirectPath = localStorage.getItem("redirectPath");
       if (redirectPath) {
         localStorage.removeItem("redirectPath");
         navigate(redirectPath);
+      } else {
+        // Redirect to the dashboard if no redirectPath is found
+        navigate("/dashboard");
       }
     }
   }, [isLoading, isAuthenticated, navigate]);
