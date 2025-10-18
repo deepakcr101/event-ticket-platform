@@ -59,7 +59,7 @@ event-ticket-platform/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/event-ticket-platform.git
+git clone https://github.com/deepakcr101/event-ticket-platform.git
 cd event-ticket-platform
 ```
 
